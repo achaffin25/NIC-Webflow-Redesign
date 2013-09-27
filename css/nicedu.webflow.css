@@ -1,0 +1,455 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-family: Georgia, serif;
+  color: #781126;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.button {
+  display: block;
+  width: auto;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.head-buttons {
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.button.head-buttons.future {
+  width: 90%;
+  background-color: #781126;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.button:hover.head-buttons:hover.future:hover {
+  background-color: #99122d;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.button.head-buttons.current {
+  width: 90%;
+  background-color: #999;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.button:hover.head-buttons:hover.current:hover {
+  background-color: #c2c2c2;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.button.head-buttons.alumni {
+  width: 90%;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.button:hover.head-buttons:hover.alumni:hover {
+  background-color: #242424;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.button.academic-buttons {
+  overflow: visible;
+  margin-right: auto;
+  float: none;
+  clear: none;
+  background-color: #781126;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ededed;
+  font-size: 16px;
+}
+.button:hover.academic-buttons:hover {
+  background-color: #99122d;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.container {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container.content {
+  margin-top: -185px;
+}
+.header-section {
+  position: static;
+  display: block;
+  margin-top: -60px;
+  padding-top: 130px;
+  padding-bottom: 280px;
+  background-image: url(../images/nicaerial.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content-section {
+  padding-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.top-nav-section {
+  position: relative;
+  display: block;
+  overflow: visible;
+  height: 57px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.nic-logo {
+  display: block;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: none;
+  text-shadow: none;
+}
+.search-field {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.search-field:hover {
+  background-color: white;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.top-nav-link {
+  margin-top: 18px;
+  margin-left: 20px;
+  float: right;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #870c0c;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.top-nav-link:hover {
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #6e6e6e;
+}
+.white-content-bg {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.header-button-div {
+  display: block;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-top: 85px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.mynic-div {
+  height: auto;
+  margin-bottom: 20px;
+  padding: 18px 20px 10px;
+  background-color: rgba(153, 153, 153, 0.95);
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.mynic-div:hover {
+  background-color: #b5b5b5;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.article-block {
+  margin-bottom: 40px;
+}
+.news-links {
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #870c0c;
+  font-size: 14px;
+  text-decoration: none;
+}
+.news-links:hover {
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+  color: #6e6e6e;
+}
+.news-image {
+  width: 300px;
+  margin-right: 10px;
+  float: left;
+}
+.big-link {
+  position: static;
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  float: right;
+  clear: left;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #870c0c;
+  font-size: 18px;
+  font-style: normal;
+  text-align: right;
+  text-decoration: none;
+}
+.big-link:hover {
+  background-color: #e3e3e3;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+  color: #6e6e6e;
+}
+.regional-center-links {
+  display: block;
+  margin-bottom: 3px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #870c0c;
+  font-size: 15px;
+  text-decoration: none;
+}
+.regional-center-links:hover {
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+  color: #6e6e6e;
+}
+.social {
+  position: relative;
+  margin: 25px 8px 8px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.social:hover {
+  top: -5px;
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+}
+.footer-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1f1f1f;
+}
+.footer-links {
+  margin-right: 0px;
+  padding: 5px 10px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #787878;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-links:hover {
+  -webkit-transition: all 500ms ease, all 300ms ease;
+  -o-transition: all 500ms ease, all 300ms ease;
+  transition: all 500ms ease, all 300ms ease;
+  color: #999;
+}
+.footer-text {
+  color: #595959;
+  font-size: 13px;
+}
+@media (max-width: 991px) {
+  .button.head-buttons.future {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-size: 17px;
+  }
+  .button.head-buttons.current {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-size: 17px;
+  }
+  .button.head-buttons.alumni {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-size: 17px;
+  }
+  .container {
+    width: 90%;
+  }
+  .nic-logo {
+    width: 300px;
+  }
+  .header-button-div {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .news-image {
+    width: 150px;
+  }
+  .footer-links {
+    display: block;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+}
+@media (max-width: 767px) {
+  .button.head-buttons.future {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .container {
+    width: 95%;
+  }
+  .header-section {
+    margin-top: 0px;
+    padding-top: 20px;
+    background-image: url(../images/nicaerial.jpg);
+    background-position: 50% 50%;
+  }
+  .top-nav-section {
+    display: none;
+  }
+  .header-button-div {
+    margin-top: 50px;
+  }
+  .mynic-div {
+    width: 50%;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .social {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .footer-links {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+  }
+  .footer-text {
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .button.head-buttons.future {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .header-section {
+    padding-bottom: 220px;
+    background-image: url(../images/nicaerial.jpg);
+    background-position: 50% 50%;
+  }
+  .nic-logo {
+    width: 200px;
+  }
+  .header-button-div {
+    margin-top: 20px;
+  }
+  .news-image {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    margin-left: auto;
+  }
+}
